@@ -6,15 +6,61 @@
   <title>Homepage</title>
 
   <link rel="stylesheet" href="/src/style.css">
+
+  <!-- voor social media icons -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-<div class="mx-auto max-w-360">
+    <!-- hero -->
+<div class="relative max-h-[85vh] overflow-hidden">
 
-    <h1 class="text-5xl font-bold text-blue-500">
-    Tailwind works!
-    </h1>
+    <img src="/img/hero.webp" alt="Hero Image" class="absolute inset-0 h-full w-full object-cover">
+    <div class="absolute inset-0 bg-black/30"></div>
 
-  </div>
+    <div class="relative z-10 mx-auto flex min-h-[85vh] max-w-360 items-center px-4 text-white">
+        <div>
+            
+        <h1 class=" text-5xl md:text-8xl font-semibold">Bouw aan jouw bedrijf met bedrijfshaven</h1>
+
+        <div class="mt-6 text-1xl md:text-2xl">Marketing, websites, IT en drukwerk. <br> Praktische oplossingen die jouw bedrijf vooruit helpen.</div>
+
+        <div class="mt-8 flex  gap-4">
+        <a href="#" class="rounded-full bg-white px-4 py-3 text-black flex items-center justify-center">Aan de slag</a>
+        <a href="#" class="rounded-full bg-[#1C1C1C] px-4 py-3 text-white flex items-center justify-center">Bekijk onze cases</a>
+        </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- container for content -->
+<div class="mx-auto max-w-360 px-4">
+
+    <!-- section 1 over ons -->
+     <div class="mt-20 mb-20 grid grid-cols-1 md:grid-cols-12 gap-10">
+        <div class="md:col-span-6 flex flex-col justify-between">
+        <h2 class="text-5xl font-semibold ">Over ons</h2>
+        <div class="text-2xl text-gray-600 mt-4">Wij helpen bedrijven groeien met slimme digitale en creatieve oplossingen. Van strategie tot uitvoering, alles wat je nodig hebt om vooruit te komen.</div>
+        </div>
+        <div class="md:col-span-6">
+        <div class="text-3xl">Marketing, IT en drukwerk komen bij ons samen. We combineren creativiteit en techniek om oplossingen te bouwen die niet alleen goed eruitzien, maar ook écht werken.</div>
+        <div class="mt-16">
+            <ul class="flex  gap-4">
+                <li><a href="#" class="flex h-14 w-14 items-center justify-center rounded-full border border-gray-300 text-gray-400 text-xl"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="#" class="flex h-14 w-14 items-center justify-center rounded-full border border-gray-300 text-gray-400 text-xl"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#" class="flex h-14 w-14 items-center justify-center rounded-full border border-gray-300 text-gray-400 text-xl"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="#" class="flex h-14 w-14 items-center justify-center rounded-full border border-gray-300 text-gray-400 text-xl"><i class="fa-brands fa-facebook-f"></i></a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+
   
 
 </body>
