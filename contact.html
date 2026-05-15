@@ -13,7 +13,110 @@
 </head>
 <body>
 
+    <!-- navbar -->
+<header class="mx-auto max-w-360 px-4 py-6">
+    <nav class="relative flex items-center justify-between">
 
+        <a href="/">
+            <img src="/img/bedrijfshaven_logo_zwart.svg" alt="Bedrijfshaven" class="h-8 w-auto">
+        </a>
+
+        <ul class="flex items-center gap-8">
+            
+            <li class="group">
+                <a href="#" class="py-4">Diensten</a>
+
+                <div class="absolute right-0 top-full hidden w-210 rounded-3xl bg-neutral-900 p-8 text-white group-hover:block">
+                    <div class="grid grid-cols-4 gap-x-16 gap-y-10">
+
+                        <div>
+                            <p class="mb-3 text-sm text-white/40">Textiel</p>
+                            <ul class="space-y-2">
+                                <li><a href="#" class="hover:text-white/60">Werkkleding</a></li>
+                                <li><a href="#" class="hover:text-white/60">Sportkleding</a></li>
+                                <li><a href="#" class="hover:text-white/60">Overige</a></li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <p class="mb-3 text-sm text-white/40">Webdevelopment</p>
+                            <ul class="space-y-2">
+                                <li><a href="#" class="hover:text-white/60">Portals</a></li>
+                                <li><a href="#" class="hover:text-white/60">Webshops</a></li>
+                                <li><a href="#" class="hover:text-white/60">Websites</a></li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <p class="mb-3 text-sm text-white/40">Drukwerk</p>
+                            <ul class="space-y-2">
+                                <li><a href="#" class="hover:text-white/60">Huisstijl</a></li>
+                                <li><a href="#" class="hover:text-white/60">Promotiemateriaal</a></li>
+                                <li><a href="#" class="hover:text-white/60">Buitenreclame</a></li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <p class="mb-3 text-sm text-white/40">Vindbaarheid</p>
+                            <ul class="space-y-2">
+                                <li><a href="#" class="hover:text-white/60">SEO</a></li>
+                                <li><a href="#" class="hover:text-white/60">SEA</a></li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <p class="mb-3 text-sm text-white/40">Infrastructuur</p>
+                            <ul class="space-y-2">
+                                <li><a href="#" class="hover:text-white/60">Server onderhoud</a></li>
+                                <li><a href="#" class="hover:text-white/60">Hosting</a></li>
+                                <li><a href="#" class="hover:text-white/60">Domein</a></li>
+                                <li><a href="#" class="hover:text-white/60">E-mail</a></li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <p class="mb-3 text-sm text-white/40">Grafisch</p>
+                            <ul class="space-y-2">
+                                <li><a href="#" class="hover:text-white/60">Design</a></li>
+                                <li><a href="#" class="hover:text-white/60">Auto belettering</a></li>
+                                <li><a href="#" class="hover:text-white/60">Foto & videografie</a></li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <p class="mb-3 text-sm text-white/40">Social media</p>
+                            <ul class="space-y-2">
+                                <li><a href="#" class="hover:text-white/60">Social media beheer</a></li>
+                                <li><a href="#" class="hover:text-white/60">Marketing</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+
+            <li><a href="#">Ons werk</a></li>
+            <li><a href="#">Over</a></li>
+
+            <!-- contact btn -->
+
+            <li>
+                <li>
+                <a href="/contact" class="group flex items-center gap-2 rounded-full border border-black px-4 py-2 transition hover:bg-blue-600 hover:border-blue-600 hover:text-white">
+                    Contact
+
+                    <span class="flex size-6 items-center justify-center rounded-full bg-black text-white transition group-hover:bg-white group-hover:text-blue-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4">
+                            <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                        </svg>
+                    </span>
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+</header>
 
 
 
@@ -22,9 +125,6 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
 
         <div>
-            <p class="text-sm font-medium uppercase tracking-widest text-gray-500">
-                Contact
-            </p>
 
             <h1 class="mt-4 text-6xl font-semibold leading-none">
                 Laten we samen iets moois bouwen.
@@ -37,29 +137,19 @@
             <div class="mt-16 space-y-10">
 
                 <div>
-                    <p class="text-lg font-medium text-gray-400">
-                        E-mail
-                    </p>
+                    <p class="text-lg font-medium text-gray-400">E-mail</p>
 
-                    <a href="mailto:info@bedrijfshaven.nl" class="mt-2 block text-2xl  hover:opacity-70 transition">
-                        info@bedrijfshaven.nl
-                    </a>
+                    <a href="mailto:info@bedrijfshaven.nl" class="mt-2 block text-2xl  hover:opacity-70 transition">info@bedrijfshaven.nl</a>
                 </div>
 
                 <div>
-                    <p class="text-lg font-medium text-gray-400">
-                        Telefoon
-                    </p>
+                    <p class="text-lg font-medium text-gray-400">Telefoon</p>
 
-                    <a href="tel:+31612345678" class="mt-2 block text-2xl hover:opacity-70 transition">
-                        +31 6 12 34 56 78
-                    </a>
+                    <a href="tel:+31612345678" class="mt-2 block text-2xl hover:opacity-70 transition">+31 6 12 34 56 78</a>
                 </div>
 
                 <div>
-                    <p class="text-lg font-medium text-gray-400">
-                        Adres
-                    </p>
+                    <p class="text-lg font-medium text-gray-400">Adres</p>
 
                     <p class="mt-2 text-2xl  leading-relaxed">
                         Bedrijfshaven B.V.<br>
